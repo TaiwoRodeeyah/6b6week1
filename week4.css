@@ -1,0 +1,105 @@
+body{
+    background-image: radial-gradient(circle, white, silver, gray, silver, silver, gray);
+}
+h1{
+    margin-left: 450px;
+}
+h1:hover{
+    text-decoration: line-through;
+    color: red;
+}
+.images1:hover{
+    filter: blur(4px);
+    cursor: pointer;
+}
+.images2:hover{
+    filter:drop-shadow(20px 20px 20px green);
+    cursor: pointer;
+}
+.images3:hover{
+    filter: sepia(55%);
+    cursor: pointer;
+}
+section{
+    background-image: url(./media/photo-sky.jpg);
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+h2:hover{
+    color: red;
+    text-decoration: underline;
+}
+.text1{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 150px;
+    text-decoration: underline;
+    font-size: medium;
+}
+.tt{
+    margin-left: 50px;
+    font-size: 80px;
+    text-decoration: none;
+    filter: drop-shadow(10px, 10px, 10px black);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.tt1{
+    margin-left: 190px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+.tt2{
+    margin-left: 200px;
+    font-size: 50px;
+    text-decoration: none;
+    filter: drop-shadow(10px 10px 10px black);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+#images{
+    padding-left: 90px;
+}
+.one{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 50px;
+}
+.one:hover{
+    color: yellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.two{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 100px;
+    color: white;
+}
+.two:hover{
+    color:yellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ti:hover{
+    filter: blur(3px);
+    cursor: pointer;
+}
+.tii:hover{
+    filter: drop-shadow(10px 10px 10px black);
+    cursor: pointer;
+}
+.ttt:hover{
+    filter: sepia(80%);
+    cursor: pointer;
+}
