@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #color-box{
+            height: 15px;
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="change-color">Change Color</button>
+    <section id="color-box">  </section>
+    <input type="text" id="color-input" placeholder="Enter a color">
+        
+</body>
+
+<script>
+    const btn = document.getElementById("change-color")
+    const section = document.getElementById("color-box")
+    const input = document.getElementById("color-input")
+   
+
+    btn.addEventListener("click", changeColor)
+    
+    function changeColor (){
+
+        const color = colorInput.value
+
+        if(color = "red"){
+            btn.style.backgroundColor = "red"
+        }
+        else if(color = "blue"){
+            btn.style.backgroundColor = "blue"
+        }
+        else if(color = "green"){
+            btn.style.backgroundColor = "green"
+        }
+        else{
+            btn.innerHTML = "INVALID COLOR"
+        }
+
+    }
+
+    
+</script>
+</html>
